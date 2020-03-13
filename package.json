@@ -1,0 +1,19 @@
+{
+  "name": "@iotame/eslint-config",
+  "version": "1.0.0",
+  "description": "The eslint configuration used by all official iotame packages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iotame/eslint-config.git"
+  },
+  "author": "Christopher Mühl <christopher@padarom.xyz>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/iotame/eslint-config/issues"
+  },
+  "homepage": "https://github.com/iotame/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
