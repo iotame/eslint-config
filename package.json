@@ -1,6 +1,6 @@
 {
   "name": "@iotame/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The eslint configuration used by all official iotame packages",
   "main": "index.js",
   "repository": {
@@ -15,5 +15,12 @@
   "homepage": "https://github.com/iotame/eslint-config#readme",
   "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
   }
 }
